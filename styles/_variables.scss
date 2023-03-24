@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$primary-color: #242a49;
-$bg-color: 214, 219, 220;
+$primary-color: #2c2c29;
+$secondary-color: #283390;
+$tertiary-color: #e92e46;
+$bg-color: #fefeff;
 $default-font: 'Montserrat', sans-serif;
+
+
+
+
+/* @media (prefers-color-scheme: dark) {
+    $bg-color: #1f1f1f;
+    $primary-color: #fefeff;
+    $secondary-color: #e3e3e3;
+} */
+
 
 :export {
     primaryColor: $primary-color;
+    secondaryColor: $secondary-color;
+    tertiaryColor: $tertiary-color;
     bgColor: $bg-color;
     defaultFont: $default-font;
 }

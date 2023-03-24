@@ -1,0 +1,39 @@
+
+
+
+.text-primary{ color: $primary-color;}
+.text-primary-fade{ color: rgba($primary-color, .7);}
+.bg-primary{ background-color: $primary-color;}
+.border-primary{ border-color: $primary-color;}
+
+.text-secondary{ color: $primary-color;}
+.bg-secondary{ background-color: $primary-color;}
+.border-secondary{ border-color: $primary-color;}
+
+.text-tertiary{ color: $tertiary-color;}
+.bg-tertiary{ background-color: $tertiary-color;}
+
+.text-light{ color: $bg-color;}
+.bg-light{ background-color: $bg-color;}
+
+.text-light-fade{ color: rgba($bg-color, .5);}
+
+
+.default-btn-color{
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    transition: all .3s ease-in-out;
+    &:hover{
+        background-color: $primary-color;
+        color: $bg-color;
+    }
+}
+
+.container{
+    max-width: 90rem;
+}
+
+.default-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
