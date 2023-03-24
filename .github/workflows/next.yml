@@ -11,7 +11,7 @@ on:
     
 
 jobs:
-  testtest:
+  test:
     name: build on node ${{ matrix.node_version }} and ${{ matrix.node }}
     runs-on: ${{ matrix.node }}
     strategy:
